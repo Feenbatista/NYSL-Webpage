@@ -1,0 +1,245 @@
+/* HEADER */
+header{
+  background: url("../Graphic/artificial-grass-inside-banner1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 100%;
+  border-top: 1px solid white;
+  border-bottom: 5px solid black;
+  background-position: center;
+}
+
+*{
+  font-family: "Verdana", Times, sans-serif;
+}
+
+img#logo{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 90%;
+}
+
+/* NAV */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  border-bottom: black solid 1px;
+}
+
+nav li {
+  float: right;
+  border-right: 1px solid #bbb;
+}
+
+nav a {
+  display: block;
+  color: white;
+	font-size: 80%;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+	height: 10px;
+  width: 60px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background-color: #111;
+}
+
+nav:first-child {
+  border-right: none;
+}
+
+nav a:active {
+  background-color: rgb(60, 240, 155);
+}
+
+
+main {
+  background: white;
+}
+
+/* TÍTULOS */
+h3{
+  text-indent: 10px;
+  font-size: 130%;
+  margin-top: 60px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+h4{
+  padding: 20px 0px 3px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+/* GENERAL FORM */
+form {
+  box-sizing: border-box;
+	display: in-line;
+	width: 60%;
+	margin: auto;
+}
+
+form.div{
+  width: 100%;
+}
+
+p{
+  text-align: justify;
+	line-height: 150%;
+	text-indent: 30px;
+}
+
+/* CHECKLIST */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 13px;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: #eee;
+}
+
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.container input:checked ~ .checkmark {
+  background-color: #82b74b;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.container .checkmark:after {
+  left: 5px;
+  top: 1px;
+  width: 3px;
+  height: 8px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+} 
+
+/* OTROS INPUTS */
+
+input[type=date]{
+  width: 93%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input[type=email]{
+  width: 93%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input[type=tel]{
+  width: 94%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input[type=text], select, textarea {
+  width: 93%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input[type=text]:focus {
+  border: 1px solid #555;
+}
+
+input[type=email]:focus {
+  border: 1px solid #555;
+}
+
+option:focus {
+  border: 1px solid #555;
+}
+
+input[type=tel]:focus {
+  border: 1px solid #555;
+}
+
+label {
+  padding: 12px 0px 2px 0;
+  display: inline-block;
+  width: 100%
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  padding: 10px 30px 10px 30px;
+  font-weight: bold;
+  margin: 20px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* HR */
+
+hr{
+  margin-top: 28px;
+}
+
+/* FOOTER */
+
+footer{
+  background: url("../Graphic/AffordableSprinkler_Homepage_Footer_GrassFade.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60px;
+  width: 100%;
+  margin-top: 60px;
+  border-bottom: 1px solid black;
+}

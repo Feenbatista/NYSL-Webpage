@@ -1,0 +1,209 @@
+header{
+  background: url("../Graphic/artificial-grass-inside-banner1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 100%;
+  border-top: 1px solid white;
+  border-bottom: 5px solid black;
+  background-position: center;
+}
+
+*{
+  font-family: "Verdana", Times, sans-serif;
+}
+
+img#logo{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 90%;
+}
+ 
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  border-bottom: black solid 1px;
+}
+
+nav li {
+  float: right;
+  border-right: 1px solid #bbb;
+}
+
+nav a {
+  display: block;
+  color: white;
+  font-size: 80%;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  height: 10px;
+  width: 60px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background-color: #111;
+}
+
+nav:first-child {
+  border-right: none;
+}
+
+nav a:active {
+  background-color: rgb(60, 240, 155);
+}
+
+main{
+  background: white;
+  margin: 40px 10px 10px 7px;
+  text-align: justify;
+}
+
+h2{
+  text-indent: 5px;
+  font-size: 130%;
+  margin-top: 60px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+main p{
+  font-size: 120%;
+}
+
+h3 {
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin-top: 20px;
+  font-size: 80%;
+  color: gray;
+  text-indent: 30px;
+}
+
+.tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -17px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent black transparent transparent;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+section#schedule{
+	margin-top:50px;
+}
+
+fieldset{
+  margin: 30px auto 10px auto;
+  width: 90%;
+}
+
+legend{
+  font-weight: bold;
+  font-size: 95%;
+  text-indent: 0px;
+}
+
+table:not(.last) {
+ width: 90%;
+ margin-left: auto;
+ margin-right: auto;
+ padding-bottom: 10px;
+ text-align: center;
+}
+
+.toprow{
+  border-top: 0px !important;
+  border-bottom: 0px !important;
+
+}
+
+.botrow{
+  border-bottom: 0px !important;
+}
+
+h4{
+    width:30px;
+    margin-top: 10px;
+    margin-left: 5px;
+    background: white;
+}
+
+td {
+	vertical-align: middle;
+}
+
+table:not(.last) td{
+  border-bottom: 1px solid #ddd;
+  line-height: 180%;
+	font-size: 80%;
+	vertical-align: middle;
+}
+
+#bottom{
+  margin-left: 5%;
+	margin-right: auto;
+  text-align: left;
+  margin-top: 30px;
+  font-size: 70%;
+  color: gray;
+}
+
+#bottomsbottom{
+  margin-left: 5%;
+	margin-right: auto;
+  text-align: left;
+  margin-top: 0px;
+  font-size: 60%;
+  color: gray;
+}
+
+.last {
+  margin-right: auto;
+  margin-left: 5%;
+  text-align: left;
+  font-size: 70%;
+  color: gray;
+}
+
+footer{
+  background: url("../Graphic/AffordableSprinkler_Homepage_Footer_GrassFade.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60px;
+  width: 100%;
+  margin-top: 60px;
+  border-bottom: 1px solid black;
+}
+
